@@ -1,11 +1,12 @@
 body {
+    min-height: 98vh;
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit";
     text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    place-items: center;
 }
+
 
 .caja {
     margin-top: 10vh;
@@ -23,19 +24,20 @@ img {
 h1 {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    font-size: 23px;
+    font-size: 1.3rem;
     margin: 20px 30px;
 }
 
 p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
     font-weight: 400;
     margin: 0px 30px;
     margin-bottom: 30px;
 }
 
 .attribution {
+    /*position: fixed;*/
+    /*bottom: 10px;*/
     font-size: 11px; 
     text-align: center;
 }
